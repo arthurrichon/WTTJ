@@ -8,8 +8,6 @@ class ImageBlock extends Component {
 			<div className="Block-Image-Container">
 				<div className="image" style={{ backgroundImage: 'url(' + this.props.url + ')'}}></div>
 			</div>
-
-
 		)
 	}
 }

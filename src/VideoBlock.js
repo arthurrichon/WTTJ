@@ -4,7 +4,7 @@ import './Block.css';
 
 class VideoBlock extends Component {
 	playVideo(id) {
-		console.log('play');
+		// Play video
 	}
 
 	render() {
@@ -12,7 +12,7 @@ class VideoBlock extends Component {
 			<div className="Block-Video-container" data-id={this.props.key}>
 				<iframe src={this.props.url} allowFullScreen></iframe>
 				<div className="Block-Video-caption">
-					<div className="Play-Button" onClick={ this.playVideo() }>
+					<div className="Play-Button" onClick={ this.playVideo(this.props.key) }>
 						<i className="fa fa-play"/>
 					</div>
 					<div className="Block-Video-headline">

@@ -37,22 +37,6 @@
 	transform: scale(1.1);
 	transition: ease all 0.2s;
 }
-/*.Block-Image-Container .Hover {
-	display: none;
-	background-color: rgba(0,0,0,0.2);
-	color: white;
-	transition: ease all 0.2s;
-}
-
-.Block-Image-Container:hover .Hover{
-	display: block;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	transition: ease all 0.2s;
-}*/
 
 .Block-Image-Container .Hover span {
 	position: absolute;
