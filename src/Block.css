@@ -4,14 +4,92 @@
 }
 
 .Block-quote {
-
+	background-color: #333;
 }
 
-.Block-image {
+.Block-image img {
 	width: 100%;
 	height: 100%;
 }
 
 .Block-video {
+	position: relative;
+}
+
+.Block-video video {
+	display: none;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+.Block-video .Block-Video-container {
+	height: 100%;
+}
+.Block-video .Block-Video-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 15px;
+}
+
+.Block-video .Block-Video-headline {
+	margin-left: 40px;
+	color: #fff;
+}
+
+.Block-video .Block-Video-headline .Headline-Title {
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+
+.Block-Video-caption .Play-Button {
+	background-color: #00C29A;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: ease 0.2s all;
+}
+
+.Block-Video-caption .Play-Button:hover {
+	filter: brightness(115%);
+	transform: scale(1.1);
+	transition: ease 0.2s all;
+}
+
+.Block-Video-caption .Play-Button i {
+	color: #fff;
+	line-height: 40px;
+}
+
+.Block-quote .Block-Quote-caption {
+	width: 100%;
+	height: 100%;
+	padding: 60px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.Block-quote .Block-Quote-caption h2 {
+	color: #eee;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.02em;
+}
+
+.Block-quote .Block-Quote-caption i {
+	color: #444;
 
 }

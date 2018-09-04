@@ -1,8 +1,11 @@
 .Grid {
 	width: 100%;
-	height: calc(100% - 140px);
+	height: calc(100% - 120px);
 
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
+
+	overflow-x: scroll;
+	background-color: #333;
 }
