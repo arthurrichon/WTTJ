@@ -9,10 +9,8 @@ class VideoBlock extends Component {
 
 	render() {
 		return (
-			<div className="Block-Video-container">
-			<iframe
-src={this.props.url}>
-</iframe>
+			<div className="Block-Video-container" data-id={this.props.key}>
+				<iframe src={this.props.url} allowFullScreen></iframe>
 				<div className="Block-Video-caption">
 					<div className="Play-Button" onClick={ this.playVideo() }>
 						<i className="fa fa-play"/>

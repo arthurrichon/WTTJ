@@ -16,15 +16,21 @@
 	position: relative;
 }
 
-.Block-video video {
-	display: none;
+.Block-video iframe {
+	/*display: none;*/
 	width: 100%;
 	height: 100%;
 	border: 0;
 }
+
 .Block-video .Block-Video-container {
 	height: 100%;
 }
+
+.Block-video iframe .ytp-large-play-button {
+	visibility: hidden;
+}
+
 .Block-video .Block-Video-caption {
 	position: absolute;
 	bottom: 0;
