@@ -3,10 +3,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Installation
 
 After cloning:
-Si la version de npm < 5.2 -> `npm install npm@latest-g`
-`npm install && npm start`
-Got to `localhost:3000/col=X&line=Y` -- Replace X & Y by number, ex: `localhost:3000/col=3&line=2`
-Sample data is stored in `data.json`
+* Si la version de npm < 5.2 -> `npm install npm@latest-g`
+* `npm install && npm start`
+* Got to `localhost:3000/col=X&line=Y` -- Replace X & Y by number, ex: `localhost:3000/col=3&line=2`
+* Sample data is stored in `data.json`
 
 ## Installation
 
