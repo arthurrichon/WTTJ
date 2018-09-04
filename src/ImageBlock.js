@@ -5,7 +5,11 @@ import './Block.css';
 class ImageBlock extends Component {
 	render() {
 		return (
-			<img src={this.props.url} />
+			<div className="Block-Image-Container">
+				<div className="image" style={{ backgroundImage: 'url(' + this.props.url + ')'}}></div>
+			</div>
+
+
 		)
 	}
 }
