@@ -18,6 +18,39 @@
 	height: 100%;
 }
 
+.Block-Image-Container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.Block-Image-Container .Hover {
+	display: none;
+	background-color: rgba(0,0,0,0.2);
+	color: white;
+	transition: ease all 0.2s;
+}
+
+.Block-Image-Container:hover .Hover{
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+		transition: ease all 0.2s;
+}
+
+.Block-Image-Container .Hover span {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 40px;
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
 .Block-video {
 	position: relative;
 }
