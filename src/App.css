@@ -2,7 +2,10 @@
   text-align: left;
   height: 100vh;
 }
-
+.App-Wrapper {
+  width: 100%;
+  height: 100%;
+}
 .App-title {
   font-size: 1.5em;
 }

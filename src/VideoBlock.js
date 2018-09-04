@@ -16,11 +16,10 @@ class VideoBlock extends Component {
 						<i className="fa fa-play"/>
 					</div>
 					<div className="Block-Video-headline">
-						<span className="Headline-Title">{this.props.title + ' ' + this.props.subtitle}</span>
+						<span className="Headline-Title">{this.props.title}<br/>{this.props.subtitle}</span>
 					</div>
 				</div>
 			</div>
-
 		)
 	}
 }

@@ -10,3 +10,16 @@
 	overflow-y: hidden;
 	background-color: #333;
 }
+
+@media screen and (max-width: 768px) {
+	.Grid {
+		flex-direction: row;
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+
+	/* Better display on mobile. Overrides the inline styles coming from grid */
+	.Block {
+		width: 100% !important;
+	}
+}
