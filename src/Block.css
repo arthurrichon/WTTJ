@@ -1,6 +1,12 @@
 .Block {
 	background-color: blue;
 	flex: 0 0 auto;
+	transition: ease all 0.2s;
+	cursor: pointer;
+}
+
+.Block:hover {
+	transform: scale(1.02);
 }
 
 .Block-quote {
@@ -41,17 +47,20 @@
 	align-items: center;
 	justify-content: flex-start;
 	padding: 15px;
+	height: 40px;
 }
 
 .Block-video .Block-Video-headline {
 	margin-left: 40px;
 	color: #fff;
+	height: 100%;
 }
 
 .Block-video .Block-Video-headline .Headline-Title {
 	font-size: 16px;
 	font-family: sans-serif;
 	font-weight: bold;
+	display: block;
 }
 
 
