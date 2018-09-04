@@ -1,6 +1,12 @@
 .Block {
 	background-color: blue;
 	flex: 0 0 auto;
+	transition: ease all 0.2s;
+	cursor: pointer;
+}
+
+.Block:hover {
+	transform: scale(1.02);
 }
 
 .Block-quote {
