@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import ImageBlock from './ImageBlock';
+import VideoBlock from './VideoBlock';
+import QuoteBlock from './QuoteBlock';
 import './Block.css';
 
 class Block extends Component {
@@ -7,17 +10,13 @@ class Block extends Component {
 		super(props);
 	}
 
-	getBlock(props) {
-
-	}
-
   render() {
     return (
-      <div className="Block" style={{width: this.props.width + '%', height: this.props.height + '%' }} data-type={this.props.data.type}>
+      <div className={'Block Block-' + this.props.data.type} style={{width: this.props.width + '%', height: this.props.height + '%' }} data-type={this.props.data.type}>
 				{
-					this.props.data.type === 'image' ? (<img src={this.props.data.imageLink} className="Block-image" />) :
-					this.props.data.type === 'video' ? (<video src="" className="Block-video"></video>) :
-					(<div className="Block-quote"></div>)
+					this.props.data.type === 'image' ? (<ImageBlock url={this.props.data.url} />) :
+					this.props.data.type === 'video' ? (<VideoBlock url={this.props.data.url} title={this.props.data.title} subtitle={this.props.data.subtitle} />) :
+					(<QuoteBlock text={this.props.data.text} />)
 				}
       </div>
     );

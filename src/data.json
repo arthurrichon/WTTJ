@@ -2,24 +2,63 @@
 	"block": [
 		{
 			"type": "quote",
-			"imageLink": "",
-			"videoLink": "",
-			"text": "abcdefh",
+			"url": "",
+			"text": "Life is short, work somewhere awesome",
 			"title": "",
 			"subtitle": ""
 		},
 		{
-			"type": "image",
-			"imageLink": "http://placekitten.com/400/300",
-			"videoLink": "",
+			"type": "video",
+			"url": "https://www.youtube.com/embed/tgbNymZ7vqY?rel=0&version=3&showinfo=0",
 			"text": "",
 			"title": "Bertrand Uzel",
 			"subtitle": "Co-Founder"
 		},
 		{
 			"type": "image",
-			"imageLink": "http://placekitten.com/400/300",
-			"videoLink": "",
+			"url": "http://placekitten.com/400/300",
+			"text": "",
+			"title": "Bêtisier Welcome To The Jungle",
+			"subtitle": "Co-Founder"
+		},
+		{
+			"type": "quote",
+			"url": "",
+			"text": "Life is short, work somewhere awesome",
+			"title": "",
+			"subtitle": ""
+		},
+		{
+			"type": "image",
+			"url": "http://placekitten.com/400/300",
+			"text": "",
+			"title": "Bêtisier Welcome To The Jungle",
+			"subtitle": "Co-Founder"
+		},
+		{
+			"type": "image",
+			"url": "http://placekitten.com/400/300",
+			"text": "",
+			"title": "Bêtisier Welcome To The Jungle",
+			"subtitle": "Co-Founder"
+		},
+		{
+			"type": "quote",
+			"url": "",
+			"text": "Life is short, work somewhere awesome",
+			"title": "",
+			"subtitle": ""
+		},
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/embed/tgbNymZ7vqY",
+			"text": "",
+			"title": "Bertrand Uzel",
+			"subtitle": "Co-Founder"
+		},
+		{
+			"type": "image",
+			"url": "http://placekitten.com/400/300",
 			"text": "",
 			"title": "Bêtisier Welcome To The Jungle",
 			"subtitle": "Co-Founder"
