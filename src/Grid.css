@@ -7,5 +7,6 @@
 	flex-wrap: wrap;
 
 	overflow-x: scroll;
+	overflow-y: hidden;
 	background-color: #333;
 }
