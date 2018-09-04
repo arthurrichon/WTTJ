@@ -1,0 +1,17 @@
+.Block {
+	background-color: blue;
+	flex: 0 0 auto;
+}
+
+.Block-quote {
+
+}
+
+.Block-image {
+	width: 100%;
+	height: 100%;
+}
+
+.Block-video {
+
+}
