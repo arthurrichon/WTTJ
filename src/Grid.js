@@ -11,7 +11,7 @@ class Grid extends Component {
 				{this.props.data.block.map((block, i) => {
 					 console.log("Entered");
 					 // Return the element. Also pass key
-					 return (<Block width={'30'} height={'30'} data={block}/>)
+					 return (<Block width={'50'} height={'50'} data={block}/>)
 				})}
       </div>
     );
